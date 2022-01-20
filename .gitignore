@@ -6,5 +6,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-target/
+target/*
 !target/jdcx.jar
+readme.txt
