@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author iordic <iordic at github.io>
- */
+
 public class Command {
     public static final char CONNECT = 'Q';
     public static final char DISCONNECT = 'W';

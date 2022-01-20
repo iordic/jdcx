@@ -18,15 +18,7 @@ import static serial.SerialHandler.DATABITS;
 import static serial.SerialHandler.PARITY;
 import static serial.SerialHandler.STOP_BITS;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
- */
 
-/**
- *
- * @author usuario
- */
 public class MainPanel extends javax.swing.JPanel implements SerialPortEventListener {
     SerialPort serialPort;
     DCDevice device;
@@ -843,7 +835,7 @@ public class MainPanel extends javax.swing.JPanel implements SerialPortEventList
                         
 						this.logTextArea.append("Conection opened to DC_6006L!\n");
 					} else {
-						this.logTextArea.append("Unknown Device\n");
+						//this.logTextArea.append("Unknown Device\n");
 					}
                     if (response.contains("A")) {
                         response = response.replace(DCDevice.DC_580, "");
