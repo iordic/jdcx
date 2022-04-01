@@ -8,4 +8,5 @@ nbdist/
 .nb-gradle/
 target/*
 !target/jdcx.jar
+!target/jdcx-jar-with-dependencies.jar
 readme.txt
